@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@600&family=Roboto:ital,wght@1,100&display=swap');
+
+:root {
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+  --Birinchi-font: 'Bai Jamjuree', sans-serif;
+}
+body{
+  font-family: var(--Birinchi-font);
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(./img/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  gap: 2rem;
+}
+.hero img {
+  width: 100px;
+}
+.download {
+  margin-bottom: 5rem;
+  display: flex;
+  gap: 2rem;
+}
+.download button {
+  width: 250px;
+  height: 60px;
+  border: none;
+  border-radius: 50px;
+  color: #fff;
+}
+.download-ios {
+  background-color: var(--Strong-Cyan);
+  box-shadow: var(--Strong-Cyan) 0px 25px 20px -20px;
+}
+.download-mac {
+  background-color: var(--Light-Blue);
+  box-shadow: var(--Light-Blue) 0px 25px 20px -20px;
+}
+
+.hero-text-1,
+.hero-text-2,
+.bottom {
+  width: 50rem;
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-text {
+  width: 40rem;
+  margin-right: 7rem;
+}
+
+.info-text p {
+  margin-bottom: 5rem;
+}
+
+.mobile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  width: min-content;
+  margin: auto;
+  margin-top: 5rem;
+}
+.mobile img {
+  margin-top: 2rem;
+}
+
+.brands {
+  display: flex;
+  flex-direction: column;
+  gap: 8rem;
+  margin-top: 7rem;
+}
+
+.brands-comments {
+  display: flex;
+  justify-content: space-between;
+  gap: 7rem;
+  margin: auto;
+}
+.brand {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 300px;
+  text-align: center;
+}
+
+.brand img {
+  width: 50px;
+}
+.brands-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7rem;
+  margin: auto;
+}
+.bottom {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  gap: 2rem;
+  margin: auto;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;d
+  gap: 5rem;
+  padding: 2rem;
+}
+.left {
+  display: flex;
+  justify-content: space-between;
+}
